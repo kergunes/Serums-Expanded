@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef Name="SE_UpgradeSerumBase" ParentName="SerumBase" Abstract="True">
+    <recipeMaker IsNull="True" />
+    <thingSetMakerTags Inherit="False" />
+    <tradeability>All</tradeability>
+    <techLevel>Spacer</techLevel>
+    <comps>
+      <li Class="SerumsExpended.CompProperties_SerumInformation" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_RefinedJuggernautSerum</defName>
+    <label>refined juggernaut serum</label>
+    <description>A syringe of purified, milky-yellow fluid. Injected into the musculature, its stabilized mechanites make the user stronger and faster, and help wounds heal. Refinement prolongs the effect and softens the disturbing thoughts it provokes, though the treatment remains unpleasant.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_RefinedJuggernaut_Painted_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.091129, 1.095764)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.001146, 0, -0.007998)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>250</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_RefinedSerum</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffectAddHediff">
+        <hediffDef>SE_RefinedJuggernautSerum</hediffDef>
+        <allowRepeatedUse>true</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_AdvancedJuggernautSerum</defName>
+    <label>advanced juggernaut serum</label>
+    <description>A syringe of densely concentrated, milky-yellow fluid. Carefully conditioned mechanites drive the muscles beyond their ordinary limits, lending exceptional strength, speed and recovery. The compound works longer and troubles the mind less than simpler preparations, but a lingering sense of unease remains.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_AdvancedJuggernaut_Painted_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.262623, 1.256556)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.007343, 0, 0.009783)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>765</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_AdvancedSerum</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffectAddHediff">
+        <hediffDef>SE_AdvancedJuggernautSerum</hediffDef>
+        <allowRepeatedUse>true</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_RefinedMetalbloodSerum</defName>
+    <label>refined metalblood serum</label>
+    <description>A syringe of rust-colored fluid that slowly hardens and liquifies. Purified metalblood reacts to incoming blows by stiffening the flesh, providing stronger and longer-lasting protection. Its volatile chemistry has been tempered, but fire remains dangerous to the user.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_RefinedMetalblood_Painted_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.085600, 1.093174)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.001541, 0, -0.007993)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>250</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_RefinedSerum</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffectAddHediff">
+        <hediffDef>SE_RefinedMetalbloodSerum</hediffDef>
+        <allowRepeatedUse>true</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_AdvancedMetalbloodSerum</defName>
+    <label>advanced metalblood serum</label>
+    <description>A syringe of dense, rust-colored fluid threaded with metallic fibers. Precision-engineered metalblood forms a responsive lattice beneath the skin, hardening against injury before relaxing again. The protection is stronger and more persistent, with much of the compound's flammability suppressed. Fire still defeats much of its protective effect.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_AdvancedMetalblood_Painted_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.252778, 1.246395)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.007237, 0, 0.009653)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>765</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_AdvancedSerum</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffectAddHediff">
+        <hediffDef>SE_AdvancedMetalbloodSerum</hediffDef>
+        <allowRepeatedUse>true</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_RefinedVoidsightSerum</defName>
+    <label>refined voidsight serum</label>
+    <description>A capsule of purified black fluid that twists against the glass. Injected into the eye, it loosens the mind's hold on ordinary perception, bringing unnatural patterns into focus. The clearer, longer-lasting visions aid the study of entities, but leave the user psychically exposed and troubled by things that should remain unseen.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_RefinedVoidsight_Painted_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.081944, 1.093174)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.001515, 0, -0.007993)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>110</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_RefinedSerum</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffectAddHediff">
+        <hediffDef>SE_RefinedVoidsightSerum</hediffDef>
+        <allowRepeatedUse>true</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_AdvancedVoidsightSerum</defName>
+    <label>advanced voidsight serum</label>
+    <description>A capsule of oily darkness that seems to move before the eye follows it. Carefully conditioned mechanites sustain an unusually clear perception of the void, revealing connections hidden from an unaltered mind. The visions are more useful and less distressing, but heightened psychic sensitivity leaves the user vulnerable to unwelcome influences.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_AdvancedVoidsight_Painted_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.255225, 1.251455)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.007764, 0, 0.010217)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>625</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_AdvancedSerum</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffectAddHediff">
+        <hediffDef>SE_AdvancedVoidsightSerum</hediffDef>
+        <allowRepeatedUse>true</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_RefinedMindNumbSerum</defName>
+    <label>refined mind-numb serum</label>
+    <description>A syringe of clear, viscous fluid. Injected near the brainstem, its stabilized mechanites smooth away the highs and lows of emotion. The longer-lasting suppression prevents mental breaks with less mental sluggishness, but also leaves the user unable to feel inspired.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_RefinedMindNumb_Painted_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.085600, 1.093174)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.001541, 0, -0.007993)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>130</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_RefinedSerum</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffectAddHediff">
+        <hediffDef>SE_RefinedMindNumbSerum</hediffDef>
+        <allowRepeatedUse>true</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_AdvancedMindNumbSerum</defName>
+    <label>advanced mind-numb serum</label>
+    <description>A syringe of clear fluid carrying precisely conditioned neural mechanites. The compound holds the mind in a prolonged state of emotional stillness, insulating the user from distress while preserving more of their awareness. Some dullness remains, and the same quiet that prevents mental breaks also extinguishes inspiration.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_AdvancedMindNumb_Painted_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.255225, 1.249764)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.006763, 0, 0.009696)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>645</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_AdvancedSerum</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffectAddHediff">
+        <hediffDef>SE_AdvancedMindNumbSerum</hediffDef>
+        <allowRepeatedUse>true</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../../Directory.Build.props.user" Condition="Exists('../../Directory.Build.props.user')" />
+  <!-- Default build targets RimWorld 1.7 (output 1.7/Assemblies).
+       Pass -p:RimWorld16=true to build the 1.6 assembly (output 1.6/Assemblies)
+       against the Krafs 1.6 reference package. -->
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>SerumsExpended</AssemblyName>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(RimWorld16)' != 'true'">
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputPath>../../1.7/Assemblies/</OutputPath>
+    <RimWorldDir Condition="'$(RimWorldDir)' == ''">$(RIMWORLD_DIR)</RimWorldDir>
+    <HarmonyAssembly Condition="'$(HarmonyAssembly)' == ''">$(HARMONY17_ASSEMBLY)</HarmonyAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(RimWorld16)' == 'true'">
+    <TargetFramework>net472</TargetFramework>
+    <OutputPath>../../1.6/Assemblies/</OutputPath>
+    <IntermediateOutputPath>obj/rw16/</IntermediateOutputPath>
+    <RimWorld16Refs Condition="'$(RimWorld16Refs)' == ''">$(NuGetPackageRoot)krafs.rimworld.ref/1.6.4871/ref/net472/</RimWorld16Refs>
+    <HarmonyAssembly Condition="'$(HarmonyAssembly)' == ''">$(HARMONY16_ASSEMBLY)</HarmonyAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <HarmonyAssembly Condition="'$(HarmonyAssembly)' == ''">$(HARMONY_ASSEMBLY)</HarmonyAssembly>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(RimWorld16)' == 'true'">
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.4871" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(RimWorld16)' != 'true'">
+    <Reference Include="Assembly-CSharp"><HintPath>$(RimWorldDir)/Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityStubs"><HintPath>$(RimWorldDir)/UnityStubs.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(RimWorld16)' == 'true'">
+    <Reference Include="Assembly-CSharp"><HintPath>$(RimWorld16Refs)Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(RimWorld16Refs)UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(RimWorld16Refs)UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(RimWorld16Refs)UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.InputLegacyModule"><HintPath>$(RimWorld16Refs)UnityEngine.InputLegacyModule.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony"><HintPath>$(HarmonyAssembly)</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

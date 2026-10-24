@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_MarksmanSerum</defName>
+    <label>marksman serum</label>
+    <description>A syringe of pale blue fluid that steadies the hands and sharpens the eye. Injected near the base of the skull, its mechanites dampen muscle tremors and fix attention on distant targets. The resulting tunnel vision makes nearby movement seem sudden and threatening, leaving the user uneasy and vulnerable in a brawl.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_Marksman_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.487674, 1.491653)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.012729, 0, 0.002071)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_MarksmanRare</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffectAddHediff">
+        <hediffDef>SE_MarksmanSerum</hediffDef>
+        <allowRepeatedUse>true</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_RefinedMarksmanSerum</defName>
+    <label>refined marksman serum</label>
+    <description>A syringe of purified pale blue fluid. Its stabilized mechanites suppress muscle tremors and help the eye settle quickly on a target. The treatment holds the shooter's aim longer and causes less distress than ordinary marksman serum, but close threats remain difficult to follow and fight off.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_RefinedMarksman_Painted_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.091129, 1.095764)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.001144, 0, -0.008004)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>250</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_RefinedSerum</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffectAddHediff">
+        <hediffDef>SE_RefinedMarksmanSerum</hediffDef>
+        <allowRepeatedUse>true</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_AdvancedMarksmanSerum</defName>
+    <label>advanced marksman serum</label>
+    <description>A syringe of concentrated pale blue fluid. Carefully conditioned mechanites coordinate the eye and hand, allowing the shooter to acquire targets quickly and hold a precise aim. The effect is stronger and longer-lasting than simpler preparations. Even so, the narrowed attention remains unsettling and leaves the user vulnerable at close quarters.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_AdvancedMarksman_Painted_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.262623, 1.256556)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.007341, 0, 0.009777)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>765</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_AdvancedSerum</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffectAddHediff">
+        <hediffDef>SE_AdvancedMarksmanSerum</hediffDef>
+        <allowRepeatedUse>true</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

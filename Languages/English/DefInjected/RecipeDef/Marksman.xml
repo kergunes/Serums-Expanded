@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_MakeMarksmanSerum.label>make marksman serum</SE_MakeMarksmanSerum.label>
+  <SE_MakeMarksmanSerum.description>Produce marksman serum at a serum lab by conditioning twisted meat and bioferrite.</SE_MakeMarksmanSerum.description>
+  <SE_MakeMarksmanSerum.jobString>Making marksman serum.</SE_MakeMarksmanSerum.jobString>
+  <SE_MakeRefinedMarksmanSerum.label>make refined marksman serum</SE_MakeRefinedMarksmanSerum.label>
+  <SE_MakeRefinedMarksmanSerum.description>Produce refined marksman serum at a serum lab. An existing marksman dose can be upgraded with additional materials, or the serum can be synthesized from raw ingredients.</SE_MakeRefinedMarksmanSerum.description>
+  <SE_MakeRefinedMarksmanSerum.jobString>Making refined marksman serum.</SE_MakeRefinedMarksmanSerum.jobString>
+  <SE_MakeAdvancedMarksmanSerum.label>make advanced marksman serum</SE_MakeAdvancedMarksmanSerum.label>
+  <SE_MakeAdvancedMarksmanSerum.description>Produce advanced marksman serum at a serum lab. A refined or ordinary marksman dose can be upgraded with additional materials, or the serum can be synthesized from raw ingredients.</SE_MakeAdvancedMarksmanSerum.description>
+  <SE_MakeAdvancedMarksmanSerum.jobString>Making advanced marksman serum.</SE_MakeAdvancedMarksmanSerum.jobString>
+</LanguageData>

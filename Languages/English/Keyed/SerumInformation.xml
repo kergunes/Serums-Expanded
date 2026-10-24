@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_Info_Mood>Mood effect</SE_Info_Mood>
+  <SE_Info_Mood_Desc>The mood change caused by the serum. This follows the same inhumanization exemption as vanilla serum thoughts.</SE_Info_Mood_Desc>
+  <SE_Info_MentalBreaks>Prevents mental breaks</SE_Info_MentalBreaks>
+  <SE_Info_MentalBreaks_Desc>The serum prevents mental breaks while its effect lasts.</SE_Info_MentalBreaks_Desc>
+  <SE_Info_Inspirations>Prevents inspirations</SE_Info_Inspirations>
+  <SE_Info_Inspirations_Desc>Emotional suppression prevents inspirations while the serum is active.</SE_Info_Inspirations_Desc>
+  <SE_Info_ThoughtSuppression>Thought suppression</SE_Info_ThoughtSuppression>
+  <SE_Info_ThoughtSuppression_Desc>The proportion of mood thoughts suppressed by the serum.</SE_Info_ThoughtSuppression_Desc>
+  <SE_Info_MoodBase>Base mood</SE_Info_MoodBase>
+  <SE_Info_MoodBase_Desc>The base mood imposed by the serum before other applicable modifiers.</SE_Info_MoodBase_Desc>
+  <SE_Info_Stacking>Stacks with other tiers</SE_Info_Stacking>
+  <SE_Info_Stacking_Desc>Different versions of the same serum replace each other. Another dose of the same version refreshes its duration.</SE_Info_Stacking_Desc>
+  <SE_Info_Production>Production alternatives</SE_Info_Production>
+  <SE_Info_Production_Desc>Complete alternatives are tried in this order. A prepared serum replaces its original ingredients and work; it is not charged again.</SE_Info_Production_Desc>
+  <SE_Info_Work>Work</SE_Info_Work>
+  <SE_Info_AlternativeCount>{0} alternatives</SE_Info_AlternativeCount>
+</LanguageData>

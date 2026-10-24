@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RecipeDef ParentName="SE_UpgradeRecipeBase">
+    <defName>SE_MakeRegenesisSerum</defName>
+    <label>make regenesis serum</label>
+    <description>Produce regenesis serum at a serum lab by conditioning regenerative mechanites with a shard and bioferrite.</description>
+    <jobString>Making regenesis serum.</jobString>
+    <workAmount>1800</workAmount>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <researchPrerequisites>
+      <li>SE_AdvancedSerumEngineering</li>
+    </researchPrerequisites>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shard</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Bioferrite</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Shard</li>
+        <li>Bioferrite</li>
+        <li>Neutroamine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SE_RegenesisSerum>1</SE_RegenesisSerum>
+    </products>
+    <modExtensions>
+      <li Class="SerumsExpended.AdaptiveSerumRecipe">
+        <routes>
+          <li>
+            <work>1800</work>
+            <ingredients>
+              <Shard>1</Shard>
+              <Bioferrite>50</Bioferrite>
+              <Neutroamine>6</Neutroamine>
+            </ingredients>
+          </li>
+        </routes>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+  <RecipeDef ParentName="SE_UpgradeRecipeBase">
+    <defName>SE_MakeAdvancedRegenesisSerum</defName>
+    <label>make advanced regenesis serum</label>
+    <description>Produce advanced regenesis serum at a serum lab. A prepared regenesis dose is upgraded when available; otherwise the complete materials are processed together.</description>
+    <jobString>Making advanced regenesis serum.</jobString>
+    <workAmount>3600</workAmount>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <researchPrerequisites>
+      <li>SE_AdvancedSerumEngineering</li>
+    </researchPrerequisites>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shard</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Bioferrite</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>18</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Shard</li>
+        <li>Bioferrite</li>
+        <li>Neutroamine</li>
+        <li>SE_RegenesisSerum</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SE_AdvancedRegenesisSerum>1</SE_AdvancedRegenesisSerum>
+    </products>
+    <modExtensions>
+      <li Class="SerumsExpended.AdaptiveSerumRecipe">
+        <routes>
+          <li>
+            <work>1800</work>
+            <ingredients>
+              <SE_RegenesisSerum>1</SE_RegenesisSerum>
+              <Shard>1</Shard>
+              <Bioferrite>100</Bioferrite>
+              <Neutroamine>12</Neutroamine>
+            </ingredients>
+          </li>
+          <li>
+            <work>3600</work>
+            <ingredients>
+              <Shard>2</Shard>
+              <Bioferrite>150</Bioferrite>
+              <Neutroamine>18</Neutroamine>
+            </ingredients>
+          </li>
+        </routes>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+</Defs>

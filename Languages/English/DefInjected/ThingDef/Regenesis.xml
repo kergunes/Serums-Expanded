@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_RegenesisSerum.label>regenesis serum</SE_RegenesisSerum.label>
+  <SE_RegenesisSerum.description>A syringe of green fluid containing regenerative mechanites. Once injected, the mechanites induce a deep coma and begin rebuilding old wounds in living tissue. The treatment repairs a permanent injury, but cannot replace a lost limb or organ. Even an uninjured person will remain unconscious until the mechanites finish their work.</SE_RegenesisSerum.description>
+  <SE_AdvancedRegenesisSerum.label>advanced regenesis serum</SE_AdvancedRegenesisSerum.label>
+  <SE_AdvancedRegenesisSerum.description>A syringe of dense green fluid threaded with dark bioferrite. Its mechanites reconstruct a missing biological body part, or repair an old injury if nothing suitable is missing. Existing artificial replacements are left intact. The reconstruction requires a prolonged coma, and the compound cannot revive the dead.</SE_AdvancedRegenesisSerum.description>
+</LanguageData>

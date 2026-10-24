@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_MakeRefinedJuggernautSerum.label>make refined juggernaut serum</SE_MakeRefinedJuggernautSerum.label>
+  <SE_MakeRefinedJuggernautSerum.description>Produce refined juggernaut serum at a serum lab. Existing lower-tier doses can be upgraded with additional materials, or the serum can be synthesized from raw ingredients. Usable higher-tier preparations are preferred when available.</SE_MakeRefinedJuggernautSerum.description>
+  <SE_MakeRefinedJuggernautSerum.jobString>Making refined juggernaut serum.</SE_MakeRefinedJuggernautSerum.jobString>
+  <SE_MakeAdvancedJuggernautSerum.label>make advanced juggernaut serum</SE_MakeAdvancedJuggernautSerum.label>
+  <SE_MakeAdvancedJuggernautSerum.description>Produce advanced juggernaut serum at a serum lab. Existing lower-tier doses can be upgraded with additional materials, or the serum can be synthesized from raw ingredients. Usable higher-tier preparations are preferred when available.</SE_MakeAdvancedJuggernautSerum.description>
+  <SE_MakeAdvancedJuggernautSerum.jobString>Making advanced juggernaut serum.</SE_MakeAdvancedJuggernautSerum.jobString>
+  <SE_MakeRefinedMetalbloodSerum.label>make refined metalblood serum</SE_MakeRefinedMetalbloodSerum.label>
+  <SE_MakeRefinedMetalbloodSerum.description>Produce refined metalblood serum at a serum lab. Existing lower-tier doses can be upgraded with additional materials, or the serum can be synthesized from raw ingredients. Usable higher-tier preparations are preferred when available.</SE_MakeRefinedMetalbloodSerum.description>
+  <SE_MakeRefinedMetalbloodSerum.jobString>Making refined metalblood serum.</SE_MakeRefinedMetalbloodSerum.jobString>
+  <SE_MakeAdvancedMetalbloodSerum.label>make advanced metalblood serum</SE_MakeAdvancedMetalbloodSerum.label>
+  <SE_MakeAdvancedMetalbloodSerum.description>Produce advanced metalblood serum at a serum lab. Existing lower-tier doses can be upgraded with additional materials, or the serum can be synthesized from raw ingredients. Usable higher-tier preparations are preferred when available.</SE_MakeAdvancedMetalbloodSerum.description>
+  <SE_MakeAdvancedMetalbloodSerum.jobString>Making advanced metalblood serum.</SE_MakeAdvancedMetalbloodSerum.jobString>
+  <SE_MakeRefinedVoidsightSerum.label>make refined voidsight serum</SE_MakeRefinedVoidsightSerum.label>
+  <SE_MakeRefinedVoidsightSerum.description>Produce refined voidsight serum at a serum lab. Existing lower-tier doses can be upgraded with additional materials, or the serum can be synthesized from raw ingredients. Usable higher-tier preparations are preferred when available.</SE_MakeRefinedVoidsightSerum.description>
+  <SE_MakeRefinedVoidsightSerum.jobString>Making refined voidsight serum.</SE_MakeRefinedVoidsightSerum.jobString>
+  <SE_MakeAdvancedVoidsightSerum.label>make advanced voidsight serum</SE_MakeAdvancedVoidsightSerum.label>
+  <SE_MakeAdvancedVoidsightSerum.description>Produce advanced voidsight serum at a serum lab. Existing lower-tier doses can be upgraded with additional materials, or the serum can be synthesized from raw ingredients. Usable higher-tier preparations are preferred when available.</SE_MakeAdvancedVoidsightSerum.description>
+  <SE_MakeAdvancedVoidsightSerum.jobString>Making advanced voidsight serum.</SE_MakeAdvancedVoidsightSerum.jobString>
+  <SE_MakeRefinedMindNumbSerum.label>make refined mind-numb serum</SE_MakeRefinedMindNumbSerum.label>
+  <SE_MakeRefinedMindNumbSerum.description>Produce refined mind-numb serum at a serum lab. Existing lower-tier doses can be upgraded with additional materials, or the serum can be synthesized from raw ingredients. Usable higher-tier preparations are preferred when available.</SE_MakeRefinedMindNumbSerum.description>
+  <SE_MakeRefinedMindNumbSerum.jobString>Making refined mind-numb serum.</SE_MakeRefinedMindNumbSerum.jobString>
+  <SE_MakeAdvancedMindNumbSerum.label>make advanced mind-numb serum</SE_MakeAdvancedMindNumbSerum.label>
+  <SE_MakeAdvancedMindNumbSerum.description>Produce advanced mind-numb serum at a serum lab. Existing lower-tier doses can be upgraded with additional materials, or the serum can be synthesized from raw ingredients. Usable higher-tier preparations are preferred when available.</SE_MakeAdvancedMindNumbSerum.description>
+  <SE_MakeAdvancedMindNumbSerum.jobString>Making advanced mind-numb serum.</SE_MakeAdvancedMindNumbSerum.jobString>
+</LanguageData>

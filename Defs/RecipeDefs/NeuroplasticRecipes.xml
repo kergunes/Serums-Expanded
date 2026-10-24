@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RecipeDef ParentName="SE_UpgradeRecipeBase">
+    <defName>SE_MakeNeuroplasticSerum</defName>
+    <label>make neuroplastic serum</label>
+    <description>Produce neuroplastic serum at a serum lab by conditioning neural mechanites with shards, bioferrite and neutroamine.</description>
+    <jobString>Making neuroplastic serum.</jobString>
+    <workAmount>35000</workAmount>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <researchPrerequisites>
+      <li>SE_AdvancedSerumEngineering</li>
+    </researchPrerequisites>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shard</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Bioferrite</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Shard</li>
+        <li>Bioferrite</li>
+        <li>Neutroamine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SE_NeuroplasticSerum>1</SE_NeuroplasticSerum>
+    </products>
+    <modExtensions>
+      <li Class="SerumsExpended.AdaptiveSerumRecipe">
+        <routes>
+          <li>
+            <work>35000</work>
+            <ingredients>
+              <Shard>2</Shard>
+              <Bioferrite>100</Bioferrite>
+              <Neutroamine>15</Neutroamine>
+            </ingredients>
+          </li>
+        </routes>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+  <RecipeDef ParentName="SE_UpgradeRecipeBase">
+    <defName>SE_MakeAdvancedNeuroplasticSerum</defName>
+    <label>make advanced neuroplastic serum</label>
+    <description>Produce advanced neuroplastic serum at a serum lab by refining a prepared neuroplastic dose with additional materials, or from raw ingredients.</description>
+    <jobString>Making advanced neuroplastic serum.</jobString>
+    <workAmount>105000</workAmount>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+    </skillRequirements>
+    <researchPrerequisites>
+      <li>SE_AdvancedSerumEngineering</li>
+    </researchPrerequisites>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shard</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Bioferrite</li>
+          </thingDefs>
+        </filter>
+        <count>250</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SE_NeuroplasticSerum</li>
+        <li>Shard</li>
+        <li>Bioferrite</li>
+        <li>Neutroamine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SE_AdvancedNeuroplasticSerum>1</SE_AdvancedNeuroplasticSerum>
+    </products>
+    <modExtensions>
+      <li Class="SerumsExpended.AdaptiveSerumRecipe">
+        <routes>
+          <li>
+            <work>70000</work>
+            <ingredients>
+              <SE_NeuroplasticSerum>1</SE_NeuroplasticSerum>
+              <Shard>3</Shard>
+              <Bioferrite>150</Bioferrite>
+              <Neutroamine>25</Neutroamine>
+            </ingredients>
+          </li>
+          <li>
+            <work>105000</work>
+            <ingredients>
+              <Shard>5</Shard>
+              <Bioferrite>250</Bioferrite>
+              <Neutroamine>40</Neutroamine>
+            </ingredients>
+          </li>
+        </routes>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+</Defs>

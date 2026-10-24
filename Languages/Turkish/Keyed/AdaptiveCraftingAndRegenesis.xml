@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_UI_Alternatives>Üretim seçeneği {0}/{1}</SE_UI_Alternatives>
+  <SE_UI_ShowAll>Tüm alternatifler</SE_UI_ShowAll>
+  <SE_UI_Priority>Ek malzemeleri mevcutsa hazır serum tercih edilir. Aksi hâlde ham maddeler kullanılır. Üzerine gelince döngü durur; &gt; ile diğer seçeneğe geçilir.</SE_UI_Priority>
+  <SE_UI_FromRaw>Ham maddelerden üret</SE_UI_FromRaw>
+  <SE_UI_FromSerum>{0} yükselt</SE_UI_FromSerum>
+  <SE_Regenesis_InvalidPatient>Yaşayan, biyolojik bir hasta gerekir.</SE_Regenesis_InvalidPatient>
+  <SE_Regenesis_AlreadyInComa>Zaten yenileyici tedavi uygulanıyor.</SE_Regenesis_AlreadyInComa>
+  <SE_Regenesis_Result>Tedavi</SE_Regenesis_Result>
+  <SE_Regenesis_NormalResult>Kalıcı bir yarayı onar</SE_Regenesis_NormalResult>
+  <SE_Regenesis_AdvancedResult>Eksik bir parçayı yenile veya kalıcı bir yarayı onar</SE_Regenesis_AdvancedResult>
+  <SE_Regenesis_ResultDesc>Koma doğal olarak sona erdiğinde rastgele uygun bir durum tedavi edilir. Uygun durum yoksa serum iade edilmez. Yalnızca gelişmiş serum eksik parçaları yeniler; mevcut implantlar korunur.</SE_Regenesis_ResultDesc>
+  <SE_Neuro_InvalidPatient>Becerileri olan, yaşayan ve biyolojik bir hasta gerekir.</SE_Neuro_InvalidPatient>
+  <SE_Neuro_AlreadyInComa>Zaten bir serum tedavisi uygulanıyor.</SE_Neuro_AlreadyInComa>
+  <SE_Neuro_NoEligible>Büyük tutku kazanabilecek uygun beceri yok. Daha güçlü veya özel tutkular ve özellik/gen kısıtlamaları korunur.</SE_Neuro_NoEligible>
+  <SE_Neuro_SkillOption>{0} (seviye {1}, {2})</SE_Neuro_SkillOption>
+  <SE_Neuro_PassionNone>tutku yok</SE_Neuro_PassionNone>
+  <SE_Neuro_PassionMinor>küçük tutku</SE_Neuro_PassionMinor>
+  <SE_Neuro_Gained>{PAWN_nameDef}, {1} için büyük bir tutku geliştirdi.</SE_Neuro_Gained>
+  <SE_Neuro_Wasted>Nöroplastik tedavi {PAWN_nameDef} üzerinde etkisiz kaldı: uygun beceri kalmamıştı.</SE_Neuro_Wasted>
+  <SE_Neuro_Result>Tedavi</SE_Neuro_Result>
+  <SE_Neuro_NormalResult>Rastgele bir beceri büyük tutku olur</SE_Neuro_NormalResult>
+  <SE_Neuro_AdvancedResult>Seçilen beceri büyük tutku olur</SE_Neuro_AdvancedResult>
+  <SE_Neuro_ResultDesc>Koma doğal olarak bittiğinde uygun bir beceri büyük tutku kazanır; seviyesi hiç değişmez. Temel serum rastgele seçer; tutkusu olmayan veya kayıtsızlık tutkusu olan becerileri tercih eder. Gelişmiş serum kullanılmadan önce bir beceri sorar. Mevcut büyük, daha güçlü ve özel tutkular korunur; özellik ve gen kısıtlamaları dikkate alınır. Tedavi bittiğinde uygun beceri kalmamışsa doz boşa gider.</SE_Neuro_ResultDesc>
+</LanguageData>

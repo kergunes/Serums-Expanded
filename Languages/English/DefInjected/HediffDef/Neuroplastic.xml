@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_NeuroplasticComa.label>neuroplastic coma</SE_NeuroplasticComa.label>
+  <SE_NeuroplasticComa.description>Neuroplastic mechanites have rendered this person unconscious while they rewire the brain. When the treatment ends, a random skill will become a burning passion.</SE_NeuroplasticComa.description>
+  <SE_AdvancedNeuroplasticComa.label>advanced neuroplastic coma</SE_AdvancedNeuroplasticComa.label>
+  <SE_AdvancedNeuroplasticComa.description>Neuroplastic mechanites have rendered this person unconscious while they carefully rewire the brain around one chosen skill. When the treatment ends, that skill will become a burning passion.</SE_AdvancedNeuroplasticComa.description>
+</LanguageData>

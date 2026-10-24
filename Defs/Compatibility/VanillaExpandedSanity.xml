@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Match Insanity's vanilla serum use penalties. It reads all SanityEffectsDefs,
+       so a separate Def leaves its own entries and other mods' patches intact.
+       Juggernaut has no vanilla entry; the new families have no vanilla analogue. -->
+  <VAEInsanity.SanityEffectsDef MayRequire="VanillaExpanded.VAnomalyEInsanity">
+    <defName>SE_SerumSanityEffects</defName>
+    <usedThingsEffects>
+      <li><thing>SE_RefinedMetalbloodSerum</thing><effect>-0.005</effect></li>
+      <li><thing>SE_AdvancedMetalbloodSerum</thing><effect>-0.005</effect></li>
+      <li><thing>SE_RefinedVoidsightSerum</thing><effect>-0.005</effect></li>
+      <li><thing>SE_AdvancedVoidsightSerum</thing><effect>-0.005</effect></li>
+      <li><thing>SE_RefinedMindNumbSerum</thing><effect>-0.005</effect></li>
+      <li><thing>SE_AdvancedMindNumbSerum</thing><effect>-0.005</effect></li>
+    </usedThingsEffects>
+  </VAEInsanity.SanityEffectsDef>
+</Defs>

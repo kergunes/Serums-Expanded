@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/HediffDef[defName='JuggernautSerum']/tags</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='JuggernautSerum']/tags</xpath>
+          <value>
+            <li>SE_JuggernautFamily</li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='JuggernautSerum']</xpath>
+          <value>
+            <tags>
+              <li>SE_JuggernautFamily</li>
+            </tags>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/HediffDef[defName='JuggernautSerum']/removeWithTags</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='JuggernautSerum']/removeWithTags</xpath>
+          <value>
+            <li>SE_JuggernautFamily</li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='JuggernautSerum']</xpath>
+          <value>
+            <removeWithTags>
+              <li>SE_JuggernautFamily</li>
+            </removeWithTags>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/HediffDef[defName='Metalblood']/tags</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='Metalblood']/tags</xpath>
+          <value>
+            <li>SE_MetalbloodFamily</li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='Metalblood']</xpath>
+          <value>
+            <tags>
+              <li>SE_MetalbloodFamily</li>
+            </tags>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/HediffDef[defName='Metalblood']/removeWithTags</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='Metalblood']/removeWithTags</xpath>
+          <value>
+            <li>SE_MetalbloodFamily</li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='Metalblood']</xpath>
+          <value>
+            <removeWithTags>
+              <li>SE_MetalbloodFamily</li>
+            </removeWithTags>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/HediffDef[defName='Voidsight']/tags</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='Voidsight']/tags</xpath>
+          <value>
+            <li>SE_VoidsightFamily</li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='Voidsight']</xpath>
+          <value>
+            <tags>
+              <li>SE_VoidsightFamily</li>
+            </tags>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/HediffDef[defName='Voidsight']/removeWithTags</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='Voidsight']/removeWithTags</xpath>
+          <value>
+            <li>SE_VoidsightFamily</li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='Voidsight']</xpath>
+          <value>
+            <removeWithTags>
+              <li>SE_VoidsightFamily</li>
+            </removeWithTags>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/HediffDef[defName='MindNumbSerum']/tags</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='MindNumbSerum']/tags</xpath>
+          <value>
+            <li>SE_MindNumbFamily</li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='MindNumbSerum']</xpath>
+          <value>
+            <tags>
+              <li>SE_MindNumbFamily</li>
+            </tags>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/HediffDef[defName='MindNumbSerum']/removeWithTags</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='MindNumbSerum']/removeWithTags</xpath>
+          <value>
+            <li>SE_MindNumbFamily</li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName='MindNumbSerum']</xpath>
+          <value>
+            <removeWithTags>
+              <li>SE_MindNumbFamily</li>
+            </removeWithTags>
+          </value>
+        </nomatch>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

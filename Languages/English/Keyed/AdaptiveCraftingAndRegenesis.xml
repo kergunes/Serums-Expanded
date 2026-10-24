@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_UI_Alternatives>Production alternative {0}/{1}</SE_UI_Alternatives>
+  <SE_UI_ShowAll>All alternatives</SE_UI_ShowAll>
+  <SE_UI_Priority>A usable prepared serum is preferred when its additional materials are available. Otherwise, raw materials are used. Hover to pause; use &gt; to browse.</SE_UI_Priority>
+  <SE_UI_FromRaw>Synthesize from raw materials</SE_UI_FromRaw>
+  <SE_UI_FromSerum>Upgrade {0}</SE_UI_FromSerum>
+  <SE_Regenesis_InvalidPatient>Requires a living biological patient.</SE_Regenesis_InvalidPatient>
+  <SE_Regenesis_AlreadyInComa>Already undergoing regenerative treatment.</SE_Regenesis_AlreadyInComa>
+  <SE_Regenesis_Result>Treatment</SE_Regenesis_Result>
+  <SE_Regenesis_NormalResult>Repair a permanent injury</SE_Regenesis_NormalResult>
+  <SE_Regenesis_AdvancedResult>Restore a missing part, or repair a permanent injury</SE_Regenesis_AdvancedResult>
+  <SE_Regenesis_ResultDesc>At natural coma expiry, a random eligible condition is treated. No refund is given if nothing is eligible. Missing parts are restored only by the advanced serum; existing implants are protected.</SE_Regenesis_ResultDesc>
+  <SE_Neuro_InvalidPatient>Requires a living biological patient with skills.</SE_Neuro_InvalidPatient>
+  <SE_Neuro_AlreadyInComa>Already undergoing serum treatment.</SE_Neuro_AlreadyInComa>
+  <SE_Neuro_NoEligible>No eligible skill can gain a major passion. Existing stronger or special passions and trait/gene restrictions are respected.</SE_Neuro_NoEligible>
+  <SE_Neuro_SkillOption>{0} (level {1}, {2})</SE_Neuro_SkillOption>
+  <SE_Neuro_PassionNone>no passion</SE_Neuro_PassionNone>
+  <SE_Neuro_PassionMinor>minor passion</SE_Neuro_PassionMinor>
+  <SE_Neuro_Gained>{PAWN_nameDef} has developed a major passion for {1}.</SE_Neuro_Gained>
+  <SE_Neuro_Wasted>The neuroplastic treatment had no effect on {PAWN_nameDef}: no suitable skill remained.</SE_Neuro_Wasted>
+  <SE_Neuro_Result>Treatment</SE_Neuro_Result>
+  <SE_Neuro_NormalResult>A random skill becomes a major passion</SE_Neuro_NormalResult>
+  <SE_Neuro_AdvancedResult>The chosen skill becomes a major passion</SE_Neuro_AdvancedResult>
+  <SE_Neuro_ResultDesc>At natural coma expiry an eligible skill gains a major passion; its level never changes. The basic serum picks randomly, preferring skills without passion or with apathy. The advanced serum asks for a skill before use. Existing major, stronger and special passions are protected; trait and gene restrictions are respected. If no eligible skill remains when treatment ends, the dose is wasted.</SE_Neuro_ResultDesc>
+</LanguageData>

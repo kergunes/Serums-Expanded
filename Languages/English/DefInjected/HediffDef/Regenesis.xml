@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_RegenesisComa.label>regenerative coma</SE_RegenesisComa.label>
+  <SE_RegenesisComa.description>Regenerative mechanites have rendered this person unconscious while they repair damaged tissue. When the treatment ends, they will attempt to repair a permanent injury on an existing body part.</SE_RegenesisComa.description>
+  <SE_AdvancedRegenesisComa.label>advanced regenerative coma</SE_AdvancedRegenesisComa.label>
+  <SE_AdvancedRegenesisComa.description>Regenerative mechanites have rendered this person unconscious while they rebuild lost tissue. When the treatment ends, they will attempt to restore a missing biological part or repair a permanent injury.</SE_AdvancedRegenesisComa.description>
+</LanguageData>

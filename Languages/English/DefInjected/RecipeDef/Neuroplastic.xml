@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_MakeNeuroplasticSerum.label>make neuroplastic serum</SE_MakeNeuroplasticSerum.label>
+  <SE_MakeNeuroplasticSerum.description>Produce neuroplastic serum at a serum lab by conditioning neural mechanites with shards, bioferrite and neutroamine.</SE_MakeNeuroplasticSerum.description>
+  <SE_MakeNeuroplasticSerum.jobString>Making neuroplastic serum.</SE_MakeNeuroplasticSerum.jobString>
+  <SE_MakeAdvancedNeuroplasticSerum.label>make advanced neuroplastic serum</SE_MakeAdvancedNeuroplasticSerum.label>
+  <SE_MakeAdvancedNeuroplasticSerum.description>Produce advanced neuroplastic serum at a serum lab by refining a prepared neuroplastic dose with additional materials, or from raw ingredients.</SE_MakeAdvancedNeuroplasticSerum.description>
+  <SE_MakeAdvancedNeuroplasticSerum.jobString>Making advanced neuroplastic serum.</SE_MakeAdvancedNeuroplasticSerum.jobString>
+</LanguageData>

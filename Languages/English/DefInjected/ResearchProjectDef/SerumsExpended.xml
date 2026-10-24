@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_SerumRefinement.label>serum refinement</SE_SerumRefinement.label>
+  <SE_SerumRefinement.description>Advanced processing techniques allow anomaly serums to be purified and stabilized, increasing their effectiveness and reducing unwanted side effects. A single refined serum recipe automatically upgrades a usable vanilla dose or uses the equivalent raw materials. The original serum research is also required.</SE_SerumRefinement.description>
+  <SE_AdvancedSerumEngineering.label>advanced serum engineering</SE_AdvancedSerumEngineering.label>
+  <SE_AdvancedSerumEngineering.description>Precision bioferrite processing and controlled void-derived catalysts allow serums to be pushed beyond their conventional limits. A single advanced serum recipe automatically uses a usable refined dose, a vanilla dose, or the equivalent raw materials. All alternatives require a shard and the original serum research.</SE_AdvancedSerumEngineering.description>
+</LanguageData>

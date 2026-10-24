@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_RefinedJuggernautSerum.label>refined juggernaut serum</SE_RefinedJuggernautSerum.label>
+  <SE_RefinedJuggernautSerum.description>A syringe of purified, milky-yellow fluid. Injected into the musculature, its stabilized mechanites make the user stronger and faster, and help wounds heal. Refinement prolongs the effect and softens the disturbing thoughts it provokes, though the treatment remains unpleasant.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_RefinedJuggernautSerum.description>
+  <SE_AdvancedJuggernautSerum.label>advanced juggernaut serum</SE_AdvancedJuggernautSerum.label>
+  <SE_AdvancedJuggernautSerum.description>A syringe of densely concentrated, milky-yellow fluid. Carefully conditioned mechanites drive the muscles beyond their ordinary limits, lending exceptional strength, speed and recovery. The compound works longer and troubles the mind less than simpler preparations, but a lingering sense of unease remains.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_AdvancedJuggernautSerum.description>
+  <SE_RefinedMetalbloodSerum.label>refined metalblood serum</SE_RefinedMetalbloodSerum.label>
+  <SE_RefinedMetalbloodSerum.description>A syringe of rust-colored fluid that slowly hardens and liquifies. Purified metalblood reacts to incoming blows by stiffening the flesh, providing stronger and longer-lasting protection. Its volatile chemistry has been tempered, but fire remains dangerous to the user.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_RefinedMetalbloodSerum.description>
+  <SE_AdvancedMetalbloodSerum.label>advanced metalblood serum</SE_AdvancedMetalbloodSerum.label>
+  <SE_AdvancedMetalbloodSerum.description>A syringe of dense, rust-colored fluid threaded with metallic fibers. Precision-engineered metalblood forms a responsive lattice beneath the skin, hardening against injury before relaxing again. The protection is stronger and more persistent, with much of the compound's flammability suppressed. Fire still defeats much of its protective effect.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_AdvancedMetalbloodSerum.description>
+  <SE_RefinedVoidsightSerum.label>refined voidsight serum</SE_RefinedVoidsightSerum.label>
+  <SE_RefinedVoidsightSerum.description>A capsule of purified black fluid that twists against the glass. Injected into the eye, it loosens the mind's hold on ordinary perception, bringing unnatural patterns into focus. The clearer, longer-lasting visions aid the study of entities, but leave the user psychically exposed and troubled by things that should remain unseen.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_RefinedVoidsightSerum.description>
+  <SE_AdvancedVoidsightSerum.label>advanced voidsight serum</SE_AdvancedVoidsightSerum.label>
+  <SE_AdvancedVoidsightSerum.description>A capsule of oily darkness that seems to move before the eye follows it. Carefully conditioned mechanites sustain an unusually clear perception of the void, revealing connections hidden from an unaltered mind. The visions are more useful and less distressing, but heightened psychic sensitivity leaves the user vulnerable to unwelcome influences.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_AdvancedVoidsightSerum.description>
+  <SE_RefinedMindNumbSerum.label>refined mind-numb serum</SE_RefinedMindNumbSerum.label>
+  <SE_RefinedMindNumbSerum.description>A syringe of clear, viscous fluid. Injected near the brainstem, its stabilized mechanites smooth away the highs and lows of emotion. The longer-lasting suppression prevents mental breaks with less mental sluggishness, but also leaves the user unable to feel inspired.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_RefinedMindNumbSerum.description>
+  <SE_AdvancedMindNumbSerum.label>advanced mind-numb serum</SE_AdvancedMindNumbSerum.label>
+  <SE_AdvancedMindNumbSerum.description>A syringe of clear fluid carrying precisely conditioned neural mechanites. The compound holds the mind in a prolonged state of emotional stillness, insulating the user from distress while preserving more of their awareness. Some dullness remains, and the same quiet that prevents mental breaks also extinguishes inspiration.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_AdvancedMindNumbSerum.description>
+</LanguageData>

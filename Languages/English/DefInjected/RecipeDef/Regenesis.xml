@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_MakeRegenesisSerum.label>make regenesis serum</SE_MakeRegenesisSerum.label>
+  <SE_MakeRegenesisSerum.description>Produce regenesis serum at a serum lab by conditioning regenerative mechanites with a shard and bioferrite.</SE_MakeRegenesisSerum.description>
+  <SE_MakeRegenesisSerum.jobString>Making regenesis serum.</SE_MakeRegenesisSerum.jobString>
+  <SE_MakeAdvancedRegenesisSerum.label>make advanced regenesis serum</SE_MakeAdvancedRegenesisSerum.label>
+  <SE_MakeAdvancedRegenesisSerum.description>Produce advanced regenesis serum at a serum lab. A prepared regenesis dose is upgraded when available; otherwise the complete materials are processed together.</SE_MakeAdvancedRegenesisSerum.description>
+  <SE_MakeAdvancedRegenesisSerum.jobString>Making advanced regenesis serum.</SE_MakeAdvancedRegenesisSerum.jobString>
+</LanguageData>

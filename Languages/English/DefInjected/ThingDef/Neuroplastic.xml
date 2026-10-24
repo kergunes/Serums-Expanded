@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_NeuroplasticSerum.label>neuroplastic serum</SE_NeuroplasticSerum.label>
+  <SE_NeuroplasticSerum.description>A syringe of vivid magenta fluid containing mechanites that alter the brain's reward pathways. The user falls into a deep coma while these connections are rewritten, waking with a consuming passion for an activity that once held less interest. The new fascination is unpredictable. Knowledge and experience must still be earned.</SE_NeuroplasticSerum.description>
+  <SE_AdvancedNeuroplasticSerum.label>advanced neuroplastic serum</SE_AdvancedNeuroplasticSerum.label>
+  <SE_AdvancedNeuroplasticSerum.description>A syringe of concentrated magenta fluid threaded with dark bioferrite. Unlike ordinary neuroplastic serum, its mechanites can be tuned to cultivate a particular interest. The treatment induces a prolonged coma while the brain's reward pathways are rebuilt around that activity, leaving a consuming passion without the knowledge or experience to match it.</SE_AdvancedNeuroplasticSerum.description>
+</LanguageData>

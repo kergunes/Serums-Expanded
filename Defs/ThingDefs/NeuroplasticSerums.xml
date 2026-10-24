@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_NeuroplasticSerum</defName>
+    <label>neuroplastic serum</label>
+    <description>A syringe of vivid magenta fluid containing mechanites that alter the brain's reward pathways. The user falls into a deep coma while these connections are rewritten, waking with a consuming passion for an activity that once held less interest. The new fascination is unpredictable. Knowledge and experience must still be earned.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_NeuroplasticSerum_Pink_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.085600, 1.093174)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.001539, 0, -0.007999)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>1450</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_NeuroplasticRare</li>
+    </tradeTags>
+    <comps>
+      <li Class="SerumsExpended.CompProperties_UseNeuroplastic">
+        <hediffDef>SE_NeuroplasticComa</hediffDef>
+        <allowRepeatedUse>false</allowRepeatedUse>
+        <chooseSkill>false</chooseSkill>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_AdvancedNeuroplasticSerum</defName>
+    <label>advanced neuroplastic serum</label>
+    <description>A syringe of concentrated magenta fluid threaded with dark bioferrite. Unlike ordinary neuroplastic serum, its mechanites can be tuned to cultivate a particular interest. The treatment induces a prolonged coma while the brain's reward pathways are rebuilt around that activity, leaving a consuming passion without the knowledge or experience to match it.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_AdvancedNeuroplasticSerum_Pink_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.260147, 1.253150)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.007817, 0, 0.010732)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>3500</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_AdvancedNeuroplasticRare</li>
+    </tradeTags>
+    <comps>
+      <li Class="SerumsExpended.CompProperties_UseNeuroplastic">
+        <hediffDef>SE_AdvancedNeuroplasticComa</hediffDef>
+        <allowRepeatedUse>false</allowRepeatedUse>
+        <chooseSkill>true</chooseSkill>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

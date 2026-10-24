@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThoughtDef>
+    <defName>SE_MarksmanSerum</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>SE_MarksmanSerum</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingHediffs>
+      <li>Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>marksman serum</label>
+        <description>Everything nearby feels too close and too threatening.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>SE_RefinedMarksmanSerum</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>SE_RefinedMarksmanSerum</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingHediffs>
+      <li>Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>refined marksman serum</label>
+        <description>Everything nearby feels too close and too threatening.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>SE_AdvancedMarksmanSerum</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>SE_AdvancedMarksmanSerum</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingHediffs>
+      <li>Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>advanced marksman serum</label>
+        <description>Everything nearby feels too close and too threatening.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

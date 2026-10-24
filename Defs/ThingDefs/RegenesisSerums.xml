@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_RegenesisSerum</defName>
+    <label>regenesis serum</label>
+    <description>A syringe of green fluid containing regenerative mechanites. Once injected, the mechanites induce a deep coma and begin rebuilding old wounds in living tissue. The treatment repairs a permanent injury, but cannot replace a lost limb or organ. Even an uninjured person will remain unconscious until the mechanites finish their work.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_RegenesisSerum_Green_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.11207770, 1.13023050)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(0.00451858, 0, 0.00444740)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>700</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_RegenesisRare</li>
+    </tradeTags>
+    <comps>
+      <li Class="SerumsExpended.CompProperties_UseRegenesis">
+        <hediffDef>SE_RegenesisComa</hediffDef>
+        <allowRepeatedUse>false</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SE_UpgradeSerumBase">
+    <defName>SE_AdvancedRegenesisSerum</defName>
+    <label>advanced regenesis serum</label>
+    <description>A syringe of dense green fluid threaded with dark bioferrite. Its mechanites reconstruct a missing biological body part, or repair an old injury if nothing suitable is missing. Existing artificial replacements are left intact. The reconstruction requires a prolonged coma, and the compound cannot revive the dead.</description>
+    <graphicData>
+      <texPath>Things/Item/Serum/SE_AdvancedRegenesisSerum_Green_v1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.29088235, 1.29563008)</drawSize>
+      <color>(1, 1, 1)</color>
+      <drawOffset>(-0.00191176, 0, 0.02381436)</drawOffset>
+    </graphicData>
+    <statBases>
+      <MarketValue>1700</MarketValue>
+    </statBases>
+    <tradeTags Inherit="False">
+      <li>SE_AdvancedRegenesisRare</li>
+    </tradeTags>
+    <comps>
+      <li Class="SerumsExpended.CompProperties_UseRegenesis">
+        <hediffDef>SE_AdvancedRegenesisComa</hediffDef>
+        <allowRepeatedUse>false</allowRepeatedUse>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

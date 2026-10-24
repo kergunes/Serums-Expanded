@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SE_Settings_Title>Serum laboratory</SE_Settings_Title>
+  <SE_Settings_Intro>Select a serum to tune its effects. Each formula has independent settings; vanilla serums are unchanged.</SE_Settings_Intro>
+  <SE_Settings_Search>Search serums by name</SE_Settings_Search>
+  <SE_Settings_ResetAll>Reset all formulas</SE_Settings_ResetAll>
+  <SE_Settings_ResetConfirm>Restore every serum to its original balance? Your custom values will be removed.</SE_Settings_ResetConfirm>
+  <SE_Settings_Custom>Custom formula</SE_Settings_Custom>
+  <SE_Settings_Default>Original formula</SE_Settings_Default>
+  <SE_Settings_FieldCount>{0} settings</SE_Settings_FieldCount>
+  <SE_Settings_NoResults>No serums match your search.</SE_Settings_NoResults>
+  <SE_Settings_Duration>Effect / coma duration</SE_Settings_Duration>
+  <SE_Settings_Days>days</SE_Settings_Days>
+  <SE_Settings_DurationHelp>One day is 24 in-game hours. Duration changes apply to future doses. Existing effect and coma timers keep their remaining time.</SE_Settings_DurationHelp>
+  <SE_Settings_Multiplier>× multiplier</SE_Settings_Multiplier>
+  <SE_Settings_Offset>additive offset</SE_Settings_Offset>
+  <SE_Settings_Points>points</SE_Settings_Points>
+  <SE_Settings_Percent>%</SE_Settings_Percent>
+  <SE_Settings_Damage>{0} damage received</SE_Settings_Damage>
+  <SE_Settings_DamageHelp>Damage-type multiplier. 1 is unchanged, 0.5 halves damage, 2 doubles it. This multiplies with the serum's overall incoming damage factor.</SE_Settings_DamageHelp>
+  <SE_Settings_Cap>Maximum {0}</SE_Settings_Cap>
+  <SE_Settings_CapHelp>Capacity ceiling, in percent. Raising consciousness above the coma threshold can let the pawn wake while the serum is still working.</SE_Settings_CapHelp>
+  <SE_Settings_Draft>FORMULA EDITOR  /  Changes are saved only when applied</SE_Settings_Draft>
+  <SE_Settings_Effects>EFFECTS &amp; DURATION</SE_Settings_Effects>
+  <SE_Settings_SideEffects>SIDE EFFECTS</SE_Settings_SideEffects>
+  <SE_Settings_ApplyHelp>Applies globally to this installation and all saves. Effect values update existing users; duration affects new doses. Cancel discards this draft. Categories follow the original formula.</SE_Settings_ApplyHelp>
+  <SE_Settings_Reset>Restore this formula</SE_Settings_Reset>
+  <SE_Settings_Apply>Apply &amp; save</SE_Settings_Apply>
+  <SE_Settings_Invalid>Enter a valid number within the slider range before applying. Use a decimal point for fractions.</SE_Settings_Invalid>
+  <SE_Settings_Base>base {0}</SE_Settings_Base>
+</LanguageData>

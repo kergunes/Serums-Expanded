@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_MarksmanSerum.label>marksman serum</SE_MarksmanSerum.label>
+  <SE_MarksmanSerum.description>A syringe of pale, faintly luminous fluid. Injected near the base of the skull, its mechanites sharpen the shooter's focus and steady the hands, but narrow perception to the distance. Anything that closes in feels unbearably near, and the user fights clumsily and takes injuries badly at arm's length.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_MarksmanSerum.description>
+  <SE_RefinedMarksmanSerum.label>refined marksman serum</SE_RefinedMarksmanSerum.label>
+  <SE_RefinedMarksmanSerum.description>A syringe of clear, faintly luminous fluid. Purified mechanites hold the shooter's focus longer and aim more quickly at distant targets. Tunnel vision remains: close threats are harder to fight off and hit harder, though the effect is less overwhelming than in simpler preparations.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_RefinedMarksmanSerum.description>
+  <SE_AdvancedMarksmanSerum.label>advanced marksman serum</SE_AdvancedMarksmanSerum.label>
+  <SE_AdvancedMarksmanSerum.description>A syringe of dense, luminous fluid. Carefully conditioned mechanites give the shooter exceptional, long-lasting precision over great distances. The narrowed perception is better controlled, yet a lingering vulnerability remains whenever an enemy closes in.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_AdvancedMarksmanSerum.description>
+</LanguageData>

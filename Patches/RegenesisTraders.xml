@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName='Orbital_Exotic' or defName='Base_Outlander_Standard']/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>SE_RegenesisRare</tradeTag>
+        <thingDefCountRange>1</thingDefCountRange>
+        <countRange>-19~1</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>SE_AdvancedRegenesisRare</tradeTag>
+        <thingDefCountRange>1</thingDefCountRange>
+        <countRange>-39~1</countRange>
+      </li>
+    </value>
+  </Operation>
+</Patch>

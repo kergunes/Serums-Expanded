@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <HediffDef ParentName="SE_SerumEffectBase">
+    <defName>SE_MarksmanSerum</defName>
+    <label>marksman serum</label>
+    <description>A syringe of pale, faintly luminous fluid. Injected near the base of the skull, its mechanites sharpen the shooter's focus and steady the hands, but narrow perception to the distance. Anything that closes in feels unbearably near, and the user fights clumsily and takes injuries badly at arm's length.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <tags>
+      <li>SE_MarksmanFamily</li>
+    </tags>
+    <removeWithTags>
+      <li>SE_MarksmanFamily</li>
+    </removeWithTags>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsDisableable">
+        <disappearsAfterTicks>480000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <ShootingAccuracyPawn>1.4</ShootingAccuracyPawn>
+          <AimingDelayFactor>0.8</AimingDelayFactor>
+          <MeleeDamageFactor>0.5</MeleeDamageFactor>
+        </statFactors>
+        <damageFactors>
+          <Cut>1.5</Cut>
+          <Stab>1.5</Stab>
+          <Blunt>1.5</Blunt>
+          <Scratch>1.5</Scratch>
+          <Bite>1.5</Bite>
+        </damageFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="SE_SerumEffectBase">
+    <defName>SE_RefinedMarksmanSerum</defName>
+    <label>refined marksman serum</label>
+    <description>A syringe of clear, faintly luminous fluid. Purified mechanites hold the shooter's focus longer and aim more quickly at distant targets. Tunnel vision remains: close threats are harder to fight off and hit harder, though the effect is less overwhelming than in simpler preparations.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <tags>
+      <li>SE_MarksmanFamily</li>
+    </tags>
+    <removeWithTags>
+      <li>SE_MarksmanFamily</li>
+    </removeWithTags>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsDisableable">
+        <disappearsAfterTicks>660000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <ShootingAccuracyPawn>1.55</ShootingAccuracyPawn>
+          <AimingDelayFactor>0.7</AimingDelayFactor>
+          <MeleeDamageFactor>0.6</MeleeDamageFactor>
+        </statFactors>
+        <damageFactors>
+          <Cut>1.4</Cut>
+          <Stab>1.4</Stab>
+          <Blunt>1.4</Blunt>
+          <Scratch>1.4</Scratch>
+          <Bite>1.4</Bite>
+        </damageFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="SE_SerumEffectBase">
+    <defName>SE_AdvancedMarksmanSerum</defName>
+    <label>advanced marksman serum</label>
+    <description>A syringe of dense, luminous fluid. Carefully conditioned mechanites give the shooter exceptional, long-lasting precision over great distances. The narrowed perception is better controlled, yet a lingering vulnerability remains whenever an enemy closes in.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <tags>
+      <li>SE_MarksmanFamily</li>
+    </tags>
+    <removeWithTags>
+      <li>SE_MarksmanFamily</li>
+    </removeWithTags>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsDisableable">
+        <disappearsAfterTicks>840000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <ShootingAccuracyPawn>1.7</ShootingAccuracyPawn>
+          <AimingDelayFactor>0.6</AimingDelayFactor>
+          <MeleeDamageFactor>0.75</MeleeDamageFactor>
+        </statFactors>
+        <damageFactors>
+          <Cut>1.25</Cut>
+          <Stab>1.25</Stab>
+          <Blunt>1.25</Blunt>
+          <Scratch>1.25</Scratch>
+          <Bite>1.25</Bite>
+        </damageFactors>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

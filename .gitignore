@@ -1,0 +1,26 @@
+# Generated build state; ship the two versioned mod DLLs, not developer paths.
+**/obj/
+**/bin/
+**/*.pdb
+**/*.deps.json
+**/*.runtimeconfig.json
+.vs/
+.idea/
+*.user
+*.suo
+Directory.Build.props.user
+.env
+.env.*
+*.log
+
+# Local iteration material stays on disk but is not part of the public mod.
+Art/*
+CraftingInspection.md
+Textures/Things/Item/Serum/SE_RefinedJuggernaut_v1.png
+Textures/Things/Item/Serum/SE_AdvancedJuggernaut_v1.png
+Textures/Things/Item/Serum/SE_RefinedJuggernaut_v3.png
+Textures/Things/Item/Serum/SE_AdvancedJuggernaut_v3.png
+
+# Keep local Markdown notes out of GitHub; publish only the root README.
+*.[mM][dD]
+!/README.md

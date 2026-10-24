@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SE_Settings_Title>Serum laboratuvarı</SE_Settings_Title>
+  <SE_Settings_Intro>Etkilerini düzenlemek için bir serum seç. Her formül ayrı ayarlanır; vanilla serumlar değişmez.</SE_Settings_Intro>
+  <SE_Settings_Search>İsme göre serum ara</SE_Settings_Search>
+  <SE_Settings_ResetAll>Tüm formülleri sıfırla</SE_Settings_ResetAll>
+  <SE_Settings_ResetConfirm>Tüm serumlar orijinal dengelerine dönsün mü? Özel değerlerin kaldırılacak.</SE_Settings_ResetConfirm>
+  <SE_Settings_Custom>Özel formül</SE_Settings_Custom>
+  <SE_Settings_Default>Orijinal formül</SE_Settings_Default>
+  <SE_Settings_FieldCount>{0} ayar</SE_Settings_FieldCount>
+  <SE_Settings_NoResults>Aramana uyan serum bulunamadı.</SE_Settings_NoResults>
+  <SE_Settings_Duration>Etki / koma süresi</SE_Settings_Duration>
+  <SE_Settings_Days>gün</SE_Settings_Days>
+  <SE_Settings_DurationHelp>Bir gün, oyun içinde 24 saattir. Süre değişikliği yeni dozlara uygulanır. Başlamış etki ve komaların kalan süresi korunur.</SE_Settings_DurationHelp>
+  <SE_Settings_Multiplier>× çarpan</SE_Settings_Multiplier>
+  <SE_Settings_Offset>eklenen değer</SE_Settings_Offset>
+  <SE_Settings_Points>puan</SE_Settings_Points>
+  <SE_Settings_Percent>%</SE_Settings_Percent>
+  <SE_Settings_Damage>Alınan {0} hasarı</SE_Settings_Damage>
+  <SE_Settings_DamageHelp>Hasar türünün çarpanı. 1 değişiklik yapmaz, 0.5 yarıya indirir, 2 ikiye katlar. Serumun genel alınan hasar çarpanıyla çarpılır.</SE_Settings_DamageHelp>
+  <SE_Settings_Cap>Azami {0}</SE_Settings_Cap>
+  <SE_Settings_CapHelp>Kapasitenin yüzde olarak üst sınırı. Bilinci koma eşiğinin üzerine çıkarmak, serum hâlâ çalışırken kişinin uyanmasını sağlayabilir.</SE_Settings_CapHelp>
+  <SE_Settings_Draft>FORMÜL DÜZENLEYİCİ  /  Değişiklikler yalnızca uygulandığında kaydedilir</SE_Settings_Draft>
+  <SE_Settings_Effects>ETKİLER VE SÜRE</SE_Settings_Effects>
+  <SE_Settings_SideEffects>YAN ETKİLER</SE_Settings_SideEffects>
+  <SE_Settings_ApplyHelp>Bu kurulumdaki tüm kayıtlara uygulanır. Etki değerleri mevcut kullanıcıları da etkiler; süre yeni dozlara uygulanır. İptal taslağı siler. Gruplar orijinal formüle göredir.</SE_Settings_ApplyHelp>
+  <SE_Settings_Reset>Bu formülü sıfırla</SE_Settings_Reset>
+  <SE_Settings_Apply>Uygula ve kaydet</SE_Settings_Apply>
+  <SE_Settings_Invalid>Uygulamadan önce kaydırıcının aralığında geçerli bir sayı gir. Ondalıklar için nokta kullan.</SE_Settings_Invalid>
+  <SE_Settings_Base>ilk değer {0}</SE_Settings_Base>
+</LanguageData>

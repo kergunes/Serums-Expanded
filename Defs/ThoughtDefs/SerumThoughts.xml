@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThoughtDef>
+    <defName>SE_RefinedJuggernautSerum</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>SE_RefinedJuggernautSerum</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingHediffs>
+      <li>Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>refined juggernaut serum</label>
+        <description>The serum still fills my head with disturbing thoughts.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>SE_AdvancedJuggernautSerum</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>SE_AdvancedJuggernautSerum</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingHediffs>
+      <li>Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>advanced juggernaut serum</label>
+        <description>The serum still fills my head with disturbing thoughts.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>SE_RefinedVoidsightSerum</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>SE_RefinedVoidsightSerum</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingHediffs>
+      <li>Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>refined voidsight serum</label>
+        <description>I can still see unsettling patterns behind everything.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>SE_AdvancedVoidsightSerum</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>SE_AdvancedVoidsightSerum</hediff>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingHediffs>
+      <li>Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>advanced voidsight serum</label>
+        <description>I can still see unsettling patterns behind everything.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

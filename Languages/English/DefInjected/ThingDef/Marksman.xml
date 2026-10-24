@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <SE_MarksmanSerum.label>marksman serum</SE_MarksmanSerum.label>
+  <SE_MarksmanSerum.description>A syringe of pale blue fluid that steadies the hands and sharpens the eye. Injected near the base of the skull, its mechanites dampen muscle tremors and fix attention on distant targets. The resulting tunnel vision makes nearby movement seem sudden and threatening, leaving the user uneasy and vulnerable in a brawl.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_MarksmanSerum.description>
+  <SE_RefinedMarksmanSerum.label>refined marksman serum</SE_RefinedMarksmanSerum.label>
+  <SE_RefinedMarksmanSerum.description>A syringe of purified pale blue fluid. Its stabilized mechanites suppress muscle tremors and help the eye settle quickly on a target. The treatment holds the shooter's aim longer and causes less distress than ordinary marksman serum, but close threats remain difficult to follow and fight off.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_RefinedMarksmanSerum.description>
+  <SE_AdvancedMarksmanSerum.label>advanced marksman serum</SE_AdvancedMarksmanSerum.label>
+  <SE_AdvancedMarksmanSerum.description>A syringe of concentrated pale blue fluid. Carefully conditioned mechanites coordinate the eye and hand, allowing the shooter to acquire targets quickly and hold a precise aim. The effect is stronger and longer-lasting than simpler preparations. Even so, the narrowed attention remains unsettling and leaves the user vulnerable at close quarters.
+
+The effect is temporary and does not stack with other versions of this serum.</SE_AdvancedMarksmanSerum.description>
+</LanguageData>

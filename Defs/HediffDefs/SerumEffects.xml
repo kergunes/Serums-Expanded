@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <HediffDef Name="SE_SerumEffectBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <maxSeverity>0.5</maxSeverity>
+    <duplicationAllowed>false</duplicationAllowed>
+  </HediffDef>
+  <HediffDef ParentName="SE_SerumEffectBase">
+    <defName>SE_RefinedJuggernautSerum</defName>
+    <label>refined juggernaut serum</label>
+    <description>A syringe of purified, milky-yellow fluid. Injected into the musculature, its stabilized mechanites make the user stronger and faster, and help wounds heal. Refinement prolongs the effect and softens the disturbing thoughts it provokes, though the treatment remains unpleasant.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <tags>
+      <li>SE_JuggernautFamily</li>
+    </tags>
+    <removeWithTags>
+      <li>SE_JuggernautFamily</li>
+    </removeWithTags>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsDisableable">
+        <disappearsAfterTicks>840000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <MeleeDamageFactor>1.6</MeleeDamageFactor>
+          <InjuryHealingFactor>2.2</InjuryHealingFactor>
+        </statFactors>
+        <statOffsets>
+          <MoveSpeed>0.55</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="SE_SerumEffectBase">
+    <defName>SE_AdvancedJuggernautSerum</defName>
+    <label>advanced juggernaut serum</label>
+    <description>A syringe of densely concentrated, milky-yellow fluid. Carefully conditioned mechanites drive the muscles beyond their ordinary limits, lending exceptional strength, speed and recovery. The compound works longer and troubles the mind less than simpler preparations, but a lingering sense of unease remains.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <tags>
+      <li>SE_JuggernautFamily</li>
+    </tags>
+    <removeWithTags>
+      <li>SE_JuggernautFamily</li>
+    </removeWithTags>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsDisableable">
+        <disappearsAfterTicks>1080000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <MeleeDamageFactor>1.7</MeleeDamageFactor>
+          <InjuryHealingFactor>2.4</InjuryHealingFactor>
+        </statFactors>
+        <statOffsets>
+          <MoveSpeed>0.6</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="SE_SerumEffectBase">
+    <defName>SE_RefinedMetalbloodSerum</defName>
+    <label>refined metalblood serum</label>
+    <description>A syringe of rust-colored fluid that slowly hardens and liquifies. Purified metalblood reacts to incoming blows by stiffening the flesh, providing stronger and longer-lasting protection. Its volatile chemistry has been tempered, but fire remains dangerous to the user.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <tags>
+      <li>SE_MetalbloodFamily</li>
+    </tags>
+    <removeWithTags>
+      <li>SE_MetalbloodFamily</li>
+    </removeWithTags>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsDisableable">
+        <disappearsAfterTicks>420000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <IncomingDamageFactor>0.4</IncomingDamageFactor>
+        </statFactors>
+        <damageFactors>
+          <Flame>3.5</Flame>
+          <Burn>3.5</Burn>
+        </damageFactors>
+      </li>
+    </stages>
+    <skinShader>Metalblood</skinShader>
+  </HediffDef>
+  <HediffDef ParentName="SE_SerumEffectBase">
+    <defName>SE_AdvancedMetalbloodSerum</defName>
+    <label>advanced metalblood serum</label>
+    <description>A syringe of dense, rust-colored fluid threaded with metallic fibers. Precision-engineered metalblood forms a responsive lattice beneath the skin, hardening against injury before relaxing again. The protection is stronger and more persistent, with much of the compound's flammability suppressed. Fire still defeats much of its protective effect.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <tags>
+      <li>SE_MetalbloodFamily</li>
+    </tags>
+    <removeWithTags>
+      <li>SE_MetalbloodFamily</li>
+    </removeWithTags>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsDisableable">
+        <disappearsAfterTicks>540000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <IncomingDamageFactor>0.3</IncomingDamageFactor>
+        </statFactors>
+        <damageFactors>
+          <Flame>3</Flame>
+          <Burn>3</Burn>
+        </damageFactors>
+      </li>
+    </stages>
+    <skinShader>Metalblood</skinShader>
+  </HediffDef>
+  <HediffDef ParentName="SE_SerumEffectBase">
+    <defName>SE_RefinedVoidsightSerum</defName>
+    <label>refined voidsight serum</label>
+    <description>A capsule of purified black fluid that twists against the glass. Injected into the eye, it loosens the mind's hold on ordinary perception, bringing unnatural patterns into focus. The clearer, longer-lasting visions aid the study of entities, but leave the user psychically exposed and troubled by things that should remain unseen.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <tags>
+      <li>SE_VoidsightFamily</li>
+    </tags>
+    <removeWithTags>
+      <li>SE_VoidsightFamily</li>
+    </removeWithTags>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsDisableable">
+        <disappearsAfterTicks>1260000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <StudyEfficiency>1.35</StudyEfficiency>
+          <PsychicSensitivity>1.3</PsychicSensitivity>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="SE_SerumEffectBase">
+    <defName>SE_AdvancedVoidsightSerum</defName>
+    <label>advanced voidsight serum</label>
+    <description>A capsule of oily darkness that seems to move before the eye follows it. Carefully conditioned mechanites sustain an unusually clear perception of the void, revealing connections hidden from an unaltered mind. The visions are more useful and less distressing, but heightened psychic sensitivity leaves the user vulnerable to unwelcome influences.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <tags>
+      <li>SE_VoidsightFamily</li>
+    </tags>
+    <removeWithTags>
+      <li>SE_VoidsightFamily</li>
+    </removeWithTags>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsDisableable">
+        <disappearsAfterTicks>1680000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <StudyEfficiency>1.50</StudyEfficiency>
+          <PsychicSensitivity>1.35</PsychicSensitivity>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="SE_SerumEffectBase">
+    <defName>SE_RefinedMindNumbSerum</defName>
+    <label>refined mind-numb serum</label>
+    <description>A syringe of clear, viscous fluid. Injected near the brainstem, its stabilized mechanites smooth away the highs and lows of emotion. The longer-lasting suppression prevents mental breaks with less mental sluggishness, but also leaves the user unable to feel inspired.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <tags>
+      <li>SE_MindNumbFamily</li>
+    </tags>
+    <removeWithTags>
+      <li>SE_MindNumbFamily</li>
+    </removeWithTags>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsDisableable">
+        <disappearsAfterTicks>168000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <blocksMentalBreaks>true</blocksMentalBreaks>
+        <blocksInspirations>true</blocksInspirations>
+        <pctAllThoughtNullification>1</pctAllThoughtNullification>
+        <overrideMoodBase>0.9</overrideMoodBase>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.03</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="SE_SerumEffectBase">
+    <defName>SE_AdvancedMindNumbSerum</defName>
+    <label>advanced mind-numb serum</label>
+    <description>A syringe of clear fluid carrying precisely conditioned neural mechanites. The compound holds the mind in a prolonged state of emotional stillness, insulating the user from distress while preserving more of their awareness. Some dullness remains, and the same quiet that prevents mental breaks also extinguishes inspiration.
+
+The effect is temporary and does not stack with other versions of this serum.</description>
+    <tags>
+      <li>SE_MindNumbFamily</li>
+    </tags>
+    <removeWithTags>
+      <li>SE_MindNumbFamily</li>
+    </removeWithTags>
+    <comps>
+      <li Class="HediffCompProperties_DisappearsDisableable">
+        <disappearsAfterTicks>228000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+    <stages>
+      <li>
+        <blocksMentalBreaks>true</blocksMentalBreaks>
+        <blocksInspirations>true</blocksInspirations>
+        <pctAllThoughtNullification>1</pctAllThoughtNullification>
+        <overrideMoodBase>0.9</overrideMoodBase>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.015</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>
