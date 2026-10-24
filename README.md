@@ -1,4 +1,4 @@
-# Serums Expended
+# Serums Expanded
 
 Adds Refined and Advanced upgrades for Anomaly serums, plus Marksman, Regenesis and Neuroplastic serums.
 

@@ -28,7 +28,7 @@ public sealed class SerumsExpendedMod : Mod
     {
         Settings = GetSettings<SerumSettings>();
     }
-    public override string SettingsCategory() => "Serums Expended";
+    public override string SettingsCategory() => "Serums Expanded";
 
     public override void DoSettingsWindowContents(Rect rect)
     {

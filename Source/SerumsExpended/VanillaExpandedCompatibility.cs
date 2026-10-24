@@ -145,6 +145,6 @@ internal static class VanillaExpandedCompatibility
     {
         if (warned) return;
         warned = true;
-        Log.Warning("[Serums Expended] Optional Vanilla Expanded integration could not complete; custom passions are protected. " + error);
+        Log.Warning("[Serums Expanded] Optional Vanilla Expanded integration could not complete; custom passions are protected. " + error);
     }
 }
