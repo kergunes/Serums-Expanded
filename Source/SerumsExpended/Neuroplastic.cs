@@ -77,6 +77,8 @@ internal static class Neuroplastic
 public sealed class NeuroplasticChoices : GameComponent
 {
     private Dictionary<Pawn, SkillDef> pending = new Dictionary<Pawn, SkillDef>();
+    private List<Pawn> pendingPawns;
+    private List<SkillDef> pendingSkills;
 
     public NeuroplasticChoices(Game game) { }
 
@@ -93,7 +95,9 @@ public sealed class NeuroplasticChoices : GameComponent
 
     public override void ExposeData()
     {
-        Scribe_Collections.Look(ref pending, "neuroPending", LookMode.Reference, LookMode.Def);
+        // Reference keys need working lists, or the dictionary cannot be saved or resolved.
+        Scribe_Collections.Look(ref pending, "neuroPending", LookMode.Reference, LookMode.Def,
+            ref pendingPawns, ref pendingSkills);
         if (pending == null) pending = new Dictionary<Pawn, SkillDef>();
         pending.RemoveAll(entry => entry.Key == null || entry.Value == null);
     }
